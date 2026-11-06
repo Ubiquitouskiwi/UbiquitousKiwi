@@ -1,13 +1,22 @@
 <!--
-  Ubiquitous Kiwi — Profile README v2.3
-  Changes in v2.3: all four project cards now use their repo's social preview /
-  OpenGraph card image (opengraph.githubassets.com) instead of placehold.co squares.
-  Repos without a custom social preview set (Settings > Social preview) render
-  GitHub's auto-generated card — upgrade by setting previews per repo.
+  Ubiquitous Kiwi — Profile README v2.4
+  Changes in v2.4: project cards use automatic thumbnail-with-fallback.
+  Each card loads .github/assets/{RepoName}-thumbnail.jpg from its repo (branch: main)
+  via the wsrv.nl image proxy. If the thumbnail does not exist in the repo,
+  wsrv.nl's `default` parameter redirects to a teal/orange placehold.co initials
+  square — no broken images either way.
+
+  TO ADD A THUMBNAIL: commit {RepoName}-thumbnail.jpg to the repo under
+  .github/assets/ (recommend 1280x640). The card picks it up automatically;
+  if it doesn't appear within a minute, add &v=2 (then v=3...) to the wsrv.nl
+  URL to bust the proxy cache.
+
+  NOTE: URLs assume the default branch is `main`. If any repo still uses
+  `master`, update that path.
+
   Fixes retained: impact tagline, OpenBridge spotlight, "say hi" close, live star badge.
   Manual to-dos: swap bio in Settings, OpenBridge repo README screenshot,
-  portfolio pin decision, Codewars sidebar link, custom social previews for
-  BOOKWRMS / SamuelSermonsExpress / personal-portfolio.
+  portfolio pin decision, Codewars sidebar link, custom social previews per repo.
 -->
 
 <div align="center">
@@ -63,10 +72,13 @@ An open-source benefits screener that checks SNAP, Medicaid, CHIP, and WIC in on
 
 ## THINGS I'VE BUILT
 
+<!-- Each card: thumbnail via wsrv.nl with initials-square fallback.
+     Thumbnail path convention: .github/assets/{RepoName}-thumbnail.jpg on main. -->
+
 | | |
 |-|-|
-| <div align="center"><a href="https://github.com/UbiquitousKiwi/OpenBridge"><img src="https://opengraph.githubassets.com/1/UbiquitousKiwi/OpenBridge" alt="OpenBridge" width="400" /></a><h3>OpenBridge</h3><p>One-pass eligibility screener for SNAP, Medicaid, CHIP, and WIC. Fully in-browser, transparent math, zero tracking.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/BOOKWRMS"><img src="https://opengraph.githubassets.com/1/UbiquitousKiwi/BOOKWRMS" alt="BOOKWRMS" width="400" /></a><h3>BOOKWRMS</h3><p>Home library management with Flask and PostgreSQL. Deliberately simple — setup should take minutes, not evenings.</p></div> |
-| <div align="center"><a href="https://github.com/UbiquitousKiwi/SamuelSermonsExpress"><img src="https://opengraph.githubassets.com/1/UbiquitousKiwi/SamuelSermonsExpress" alt="Samuel Sermons" width="400" /></a><h3>Samuel Sermons</h3><p>An archive of my late grandfather's sermons from his decades as a Methodist minister, built with Express.js. Genealogy, shipped.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/personal-portfolio"><img src="https://opengraph.githubassets.com/1/UbiquitousKiwi/personal-portfolio" alt="Personal Portfolio" width="400" /></a><h3>Personal Portfolio</h3><p>My corner of the web, where the frontend experiments live. Hosted at tylerstarling.com.</p></div> |
+| <div align="center"><a href="https://github.com/UbiquitousKiwi/OpenBridge"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/OpenBridge/main/.github/assets/OpenBridge-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2F0F766E%2FFFFFF%2Fjpeg%3Ftext%3DOB" alt="OpenBridge" width="400" /></a><h3>OpenBridge</h3><p>One-pass eligibility screener for SNAP, Medicaid, CHIP, and WIC. Fully in-browser, transparent math, zero tracking.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/BOOKWRMS"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/BOOKWRMS/main/.github/assets/BOOKWRMS-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2FC2410C%2FFFFFF%2Fjpeg%3Ftext%3DBW" alt="BOOKWRMS" width="400" /></a><h3>BOOKWRMS</h3><p>Home library management with Flask and PostgreSQL. Deliberately simple — setup should take minutes, not evenings.</p></div> |
+| <div align="center"><a href="https://github.com/UbiquitousKiwi/SamuelSermonsExpress"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/SamuelSermonsExpress/main/.github/assets/SamuelSermonsExpress-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2FC2410C%2FFFFFF%2Fjpeg%3Ftext%3DSS" alt="Samuel Sermons" width="400" /></a><h3>Samuel Sermons</h3><p>An archive of my late grandfather's sermons from his decades as a Methodist minister, built with Express.js. Genealogy, shipped.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/personal-portfolio"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/personal-portfolio/main/.github/assets/personal-portfolio-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2F0F766E%2FFFFFF%2Fjpeg%3Ftext%3DPP" alt="Personal Portfolio" width="400" /></a><h3>Personal Portfolio</h3><p>My corner of the web, where the frontend experiments live. Hosted at tylerstarling.com.</p></div> |
 
 ## THE TOOLBOX
 
