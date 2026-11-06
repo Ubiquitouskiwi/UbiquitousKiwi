@@ -1,156 +1,124 @@
 <!--
-UbiquitousKiwi/UbiquitousKiwi — README.md
-Palette: deep teal (#0F766E) ↔ burnt orange (#C2410C) — both pass WCAG AA on white,
-and both are dark enough to sit under white banner text at AA as well.
-Fonts: Atkinson Hyperlegible (Braille Institute) via the typing SVG service,
-in Regular (400) and Bold (700). GitHub strips injected fonts from markdown bodies,
-so Atkinson lives in the animated headlines; body text falls back to GitHub's
-system stack. If any image fails to load, delete that tag — the layout stands alone.
+  Ubiquitous Kiwi — Profile README v2.3
+  Changes in v2.3: all four project cards now use their repo's social preview /
+  OpenGraph card image (opengraph.githubassets.com) instead of placehold.co squares.
+  Repos without a custom social preview set (Settings > Social preview) render
+  GitHub's auto-generated card — upgrade by setting previews per repo.
+  Fixes retained: impact tagline, OpenBridge spotlight, "say hi" close, live star badge.
+  Manual to-dos: swap bio in Settings, OpenBridge repo README screenshot,
+  portfolio pin decision, Codewars sidebar link, custom social previews for
+  BOOKWRMS / SamuelSermonsExpress / personal-portfolio.
 -->
 
-<!-- ───────────────────────── Animated header ───────────────────────── -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0F766E,100:C2410C&text=Ubiquitous%20Kiwi&fontSize=52&fontColor=ffffff&desc=Tyler%20Starling%20%C2%B7%20operating%20professionally%20as%20StarlingTek&descSize=18&descAlignY=78&animation=fadeIn" alt="Ubiquitous Kiwi banner" />
+</div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:C2410C&height=200&section=header&text=Ubiquitous%20Kiwi&fontSize=56&fontColor=ffffff&fontAlignY=34&desc=Tyler%20Starling%20%E2%80%A2%20operating%20professionally%20as%20StarlingTek&descSize=16&descAlignY=56" alt="Ubiquitous Kiwi — Tyler Starling · StarlingTek" />
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Atkinson+Hyperlegible&weight=700&size=24&pause=1200&color=C2410C&center=true&vCenter=true&lines=Civic-minded.+Security-driven.%3BPrivacy-first.+Accessible+by+design." alt="Typing: Civic-minded. Security-driven. / Privacy-first. Accessible by design." />
+  <br />
+  <img src="https://readme-typing-svg.demolab.com/?font=Atkinson+Hyperlegible&weight=400&size=18&pause=1200&color=0F766E&center=true&vCenter=true&lines=1%2C000%2B+Ignition+servers+across+375%2B+warehouses.%3BA+billion+sensor+rows+a+day.+Zero+downtime+migrations." alt="Typing: scale and reliability stats" />
+</div>
 
-<!-- Values line — Atkinson Hyperlegible, Bold -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Atkinson+Hyperlegible&size=20&weight=700&pause=1500&color=C2410C&center=true&vCenter=true&width=700&lines=Civic-minded.+Security-driven.;Privacy-first.+Accessible+by+design." alt="Values" />
-</p>
+<div align="center">
+  <em>From PLC cabinets to cloud infrastructure — building tools that make essential things easier to reach.</em>
+</div>
 
-<!-- Scale line — Atkinson Hyperlegible, Regular -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Atkinson+Hyperlegible&size=17&weight=400&pause=1400&color=0F766E&center=true&vCenter=true&width=700&lines=1%2C000%2B+servers.+375%2B+warehouses.;A+billion+sensor+rows+a+day.+Zero+downtime.;From+the+PLC+cabinet+to+us-east-1." alt="Scale" />
-</p>
+<br />
 
-<!-- ───────────────────────── Introduction ───────────────────────── -->
+## ABOUT
 
-<p align="center">
-  <em>Also known as Tyler Starling.</em><br/><br/>
-  By day I run global SCADA and OEE infrastructure for 375+ Amazon warehouses — a fleet of
-  1,000+ Ignition servers watching 300,000+ measurement points every second. Professionally,
-  I operate under the banner of <b>StarlingTek</b>.<br/><br/>
-  The name fits: the kiwi shows up everywhere, and so do I — commissioning controls on a
-  warehouse floor one year, migrating a thousand servers with zero downtime the next,
-  and building the tooling that keeps it all alive in between.<br/><br/>
-  The way I build follows a pattern: software should be <b>civic-minded</b>, treat people's
-  data as <b>theirs</b>, and be usable by <b>everyone</b> — so that's how I build mine.
-</p>
+Also known as Tyler Starling.
 
-<!-- ───────────────────────── Project card grid ───────────────────────── -->
+By day I run global SCADA and OEE infrastructure for 375+ Amazon warehouses — a fleet of 1,000+ Ignition servers watching 300,000+ measurement points every second. Professionally, I operate under the banner of **StarlingTek**.
 
-<h3 align="center">THINGS I'VE BUILT</h3>
+The name fits: the kiwi shows up everywhere, and so do I — commissioning controls on a warehouse floor one year, migrating a thousand servers with zero downtime the next, and building the tooling that keeps it all alive in between.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="center">OpenBridge</h4>
-      <p align="center">
-        One-pass eligibility screener for SNAP, Medicaid, CHIP, and WIC.
-        Fully in-browser, transparent math, zero tracking — because checking
-        benefits shouldn't require giving up your data.
-      </p>
-      <p align="center">
-        <a href="https://github.com/Ubiquitouskiwi/OpenBridge">
-          <img src="https://img.shields.io/badge/OpenBridge-view_repo-0F766E?style=for-the-badge" alt="OpenBridge repo" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="center">BOOKWRMS</h4>
-      <p align="center">
-        Home library management with Flask and PostgreSQL.
-        Deliberately simple — setup should take minutes, not evenings.
-      </p>
-      <p align="center">
-        <a href="https://github.com/Ubiquitouskiwi/BOOKWRMS">
-          <img src="https://img.shields.io/badge/BOOKWRMS-view_repo-0F766E?style=for-the-badge" alt="BOOKWRMS repo" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4 align="center">Samuel Sermons</h4>
-      <p align="center">
-        An archive of my late grandfather's sermons from his decades as a
-        Methodist minister, built with Express.js. Genealogy, shipped.
-      </p>
-      <p align="center">
-        <a href="https://github.com/Ubiquitouskiwi/SamuelSermonsExpress">
-          <img src="https://img.shields.io/badge/Samuel_Sermons-view_repo-0F766E?style=for-the-badge" alt="Samuel Sermons repo" />
-        </a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4 align="center">Personal Portfolio</h4>
-      <p align="center">
-        My corner of the web, where the frontend experiments live.
-        Hosted at tylerstarling.com.
-      </p>
-      <p align="center">
-        <a href="https://github.com/Ubiquitouskiwi/personal-portfolio">
-          <img src="https://img.shields.io/badge/Portfolio-view_repo-0F766E?style=for-the-badge" alt="Portfolio repo" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+The way I build follows a pattern: software should be civic-minded, treat people's data as theirs, and be usable by everyone — so that's how I build mine.
 
-<!-- ───────────────────────── Toolbox ───────────────────────── -->
+## FEATURED — OPENBRIDGE
 
-<h3 align="center">THE TOOLBOX</h3>
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-TypeScript-0F766E?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/-Python-0F766E?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/-Java-C2410C?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/-React-0F766E?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/-AWS-C2410C?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/-Ignition_8.3-C2410C?style=for-the-badge&logoColor=white" alt="Ignition" />
-  <img src="https://img.shields.io/badge/-MQTT-0F766E?style=for-the-badge&logoColor=white" alt="MQTT" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/-PostgreSQL-C2410C?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/-MySQL-0F766E?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/-Node.js-C2410C?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-</p>
+An open-source benefits screener that checks SNAP, Medicaid, CHIP, and WIC in one pass, shows the math behind every result, and runs entirely in your browser. No account, no tracking — because checking benefits shouldn't require giving up your data.
 
-<!-- ───────────────────────── Currently / interests ───────────────────────── -->
+**Open to collaborators, feedback, and field testers.** If benefits access matters to you, come say hi.
 
-<h3 align="center">CURRENTLY</h3>
+<br />
 
-<p align="center">
-  Expanding OpenBridge's rules engine&nbsp;&nbsp;·&nbsp;&nbsp;Peering into
-  <a href="https://github.com/topics/controlled-environment-agriculture">controlled environment agriculture</a>,
-  where grow houses meet the industrial controls stack I know best
-</p>
+<a href="https://github.com/UbiquitousKiwi/OpenBridge">
+  <img src="https://img.shields.io/badge/OPENBRIDGE-view_on_GitHub-0F766E?style=for-the-badge" alt="View OpenBridge on GitHub" />
+</a>
+&nbsp;
+<a href="https://github.com/UbiquitousKiwi/OpenBridge/issues">
+  <img src="https://img.shields.io/badge/-contribute_or_report_back-C2410C?style=for-the-badge&logo=githubissues&logoColor=white" alt="OpenBridge issues" />
+</a>
+&nbsp;
+<img src="https://img.shields.io/github/stars/UbiquitousKiwi/OpenBridge?style=for-the-badge&color=0F766E&label=stars" alt="OpenBridge star count" />
 
-<h3 align="center">OFF HOURS</h3>
+<!-- TODO: add a screenshot or short demo GIF to the OpenBridge REPO readme (not here)
+     once you have one — it is the single biggest upgrade for visitor conversion. -->
 
-<p align="center">
-  Genealogy and woodworking. Tracing ancestors and building furniture have a lot in common
-  with systems engineering — assemble something real from what's in front of you,
-  and shortcuts show.
-</p>
+</div>
 
-<!-- ───────────────────────── Footer ───────────────────────── -->
+## THINGS I'VE BUILT
 
-<p align="center">
-  <a href="https://tylerstarling.com">
-    <img src="https://img.shields.io/badge/WEBSITE-tylerstarling.com-0F766E?style=for-the-badge" alt="Website" />
-  </a>
-  <a href="https://www.linkedin.com/in/tyler-starling-044a31ba/">
-    <img src="https://img.shields.io/badge/LINKEDIN-Tyler_Starling-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:contact@tylerstarling.com">
-    <img src="https://img.shields.io/badge/EMAIL-contact@tylerstarling.com-C2410C?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+| | |
+|-|-|
+| <div align="center"><a href="https://github.com/UbiquitousKiwi/OpenBridge"><img src="https://opengraph.githubassets.com/1/UbiquitousKiwi/OpenBridge" alt="OpenBridge" width="400" /></a><h3>OpenBridge</h3><p>One-pass eligibility screener for SNAP, Medicaid, CHIP, and WIC. Fully in-browser, transparent math, zero tracking.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/BOOKWRMS"><img src="https://opengraph.githubassets.com/1/UbiquitousKiwi/BOOKWRMS" alt="BOOKWRMS" width="400" /></a><h3>BOOKWRMS</h3><p>Home library management with Flask and PostgreSQL. Deliberately simple — setup should take minutes, not evenings.</p></div> |
+| <div align="center"><a href="https://github.com/UbiquitousKiwi/SamuelSermonsExpress"><img src="https://opengraph.githubassets.com/1/UbiquitousKiwi/SamuelSermonsExpress" alt="Samuel Sermons" width="400" /></a><h3>Samuel Sermons</h3><p>An archive of my late grandfather's sermons from his decades as a Methodist minister, built with Express.js. Genealogy, shipped.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/personal-portfolio"><img src="https://opengraph.githubassets.com/1/UbiquitousKiwi/personal-portfolio" alt="Personal Portfolio" width="400" /></a><h3>Personal Portfolio</h3><p>My corner of the web, where the frontend experiments live. Hosted at tylerstarling.com.</p></div> |
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C2410C,100:0F766E&height=120&section=footer" alt="Footer wave" />
-</p>
+## THE TOOLBOX
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/-TypeScript-0F766E?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />&nbsp;
+<img src="https://img.shields.io/badge/-Python-C2410C?style=for-the-badge&logo=python&logoColor=white" alt="Python" />&nbsp;
+<img src="https://img.shields.io/badge/-Java-0F766E?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />&nbsp;
+<img src="https://img.shields.io/badge/-React-C2410C?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+
+<br /><br />
+
+<img src="https://img.shields.io/badge/-AWS-0F766E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />&nbsp;
+<img src="https://img.shields.io/badge/-Ignition_SCADA-C2410C?style=for-the-badge" alt="Ignition SCADA" />&nbsp;
+<img src="https://img.shields.io/badge/-MQTT-0F766E?style=for-the-badge&logo=mqtt&logoColor=white" alt="MQTT" />
+
+<br /><br />
+
+<img src="https://img.shields.io/badge/-PostgreSQL-C2410C?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />&nbsp;
+<img src="https://img.shields.io/badge/-MySQL-0F766E?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />&nbsp;
+<img src="https://img.shields.io/badge/-Node.js-C2410C?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+
+</div>
+
+## CURRENTLY
+
+Expanding OpenBridge's rules engine · Peering into controlled environment agriculture, where grow houses meet the industrial controls stack I know best.
+
+## OFF HOURS
+
+Genealogy and woodworking. Tracing ancestors and building furniture have a lot in common with systems engineering — assemble something real from what's in front of you, and shortcuts show.
+
+## SAY HI
+
+Strangers are welcome here. If you're working on civic tech, controls, CEA, or just want to talk shop about a project on this page, my inbox is open.
+
+<div align="center">
+
+<a href="https://www.tylerstarling.com">
+  <img src="https://img.shields.io/badge/WEBSITE-tylerstarling.com-0F766E?style=for-the-badge" alt="Website: tylerstarling.com" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/tyler-starling-044a31ba">
+  <img src="https://img.shields.io/badge/LINKEDIN-tyler_starling-C2410C?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: Tyler Starling" />
+</a>
+&nbsp;
+<a href="mailto:contact@tylerstarling.com">
+  <img src="https://img.shields.io/badge/EMAIL-contact@tylerstarling.com-0F766E?style=for-the-badge" alt="Email: contact@tylerstarling.com" />
+</a>
+
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:C2410C,100:0F766E&reversal=false" alt="Footer wave" />
+</div>
