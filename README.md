@@ -26,7 +26,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Atkinson+Hyperlegible&weight=700&size=24&pause=1200&color=C2410C&center=true&vCenter=true&lines=Civic-minded.+Security-driven.%3BPrivacy-first.+Accessible+by+design." alt="Typing: Civic-minded. Security-driven. / Privacy-first. Accessible by design." />
   <br />
-  <img src="https://readme-typing-svg.demolab.com/?font=Atkinson+Hyperlegible&weight=400&size=18&pause=1200&color=0F766E&center=true&vCenter=true&lines=Industrial+controls+at+fleet+scale.%3BReliable+systems.+Quiet+migrations." alt="Typing: Industrial controls at fleet scale. / Reliable systems. Quiet migrations." />
+  <img src="https://readme-typing-svg.demolab.com/?font=Atkinson+Hyperlegible&weight=400&size=18&pause=1200&color=0F766E&center=true&vCenter=true&lines=1%2C000%2B+SCADA+servers+across+hundreds+of+sites.%3BBillions+of+sensor+readings.+Zero-downtime+migrations." alt="Typing: 1,000+ SCADA servers across hundreds of sites. / Billions of sensor readings. Zero-downtime migrations." />
 </div>
 
 <div align="center">
@@ -39,9 +39,9 @@
 
 Also known as Tyler Starling.
 
-By day I'm a controls engineer working on SCADA and OEE infrastructure for a large logistics network: industrial monitoring systems that run across many sites, around the clock. Professionally, I operate under the banner of **StarlingTek**.
+By day I'm a controls engineer on the SCADA and OEE infrastructure behind a global logistics network: a fleet of 1,000+ servers across hundreds of sites, watching hundreds of thousands of data points every second. Professionally, I operate under the banner of **StarlingTek**.
 
-The name fits: the kiwi shows up everywhere, and so do I — commissioning controls on a warehouse floor one year, moving a whole fleet of servers to new infrastructure without downtime the next, and building the tooling that keeps it all alive in between.
+The name fits: the kiwi shows up everywhere, and so do I — commissioning controls on a warehouse floor one year, migrating that whole fleet with zero downtime the next, and building the tooling that keeps it all alive in between.
 
 The way I build follows a pattern: software should be civic-minded, treat people's data as theirs, and be usable by everyone — so that's how I build mine.
 
