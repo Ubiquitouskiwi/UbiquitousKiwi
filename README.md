@@ -26,7 +26,7 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Atkinson+Hyperlegible&weight=700&size=24&pause=1200&color=C2410C&center=true&vCenter=true&lines=Civic-minded.+Security-driven.%3BPrivacy-first.+Accessible+by+design." alt="Typing: Civic-minded. Security-driven. / Privacy-first. Accessible by design." />
   <br />
-  <img src="https://readme-typing-svg.demolab.com/?font=Atkinson+Hyperlegible&weight=400&size=18&pause=1200&color=0F766E&center=true&vCenter=true&lines=1%2C000%2B+Ignition+servers+across+375%2B+warehouses.%3BA+billion+sensor+rows+a+day.+Zero+downtime+migrations." alt="Typing: scale and reliability stats" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Atkinson+Hyperlegible&weight=400&size=18&pause=1200&color=0F766E&center=true&vCenter=true&lines=Industrial+controls+at+fleet+scale.%3BReliable+systems.+Quiet+migrations." alt="Typing: Industrial controls at fleet scale. / Reliable systems. Quiet migrations." />
 </div>
 
 <div align="center">
@@ -39,9 +39,9 @@
 
 Also known as Tyler Starling.
 
-By day I run global SCADA and OEE infrastructure for 375+ Amazon warehouses — a fleet of 1,000+ Ignition servers watching 300,000+ measurement points every second. Professionally, I operate under the banner of **StarlingTek**.
+By day I'm a controls engineer working on SCADA and OEE infrastructure for a large logistics network: industrial monitoring systems that run across many sites, around the clock. Professionally, I operate under the banner of **StarlingTek**.
 
-The name fits: the kiwi shows up everywhere, and so do I — commissioning controls on a warehouse floor one year, migrating a thousand servers with zero downtime the next, and building the tooling that keeps it all alive in between.
+The name fits: the kiwi shows up everywhere, and so do I — commissioning controls on a warehouse floor one year, moving a whole fleet of servers to new infrastructure without downtime the next, and building the tooling that keeps it all alive in between.
 
 The way I build follows a pattern: software should be civic-minded, treat people's data as theirs, and be usable by everyone — so that's how I build mine.
 
@@ -78,7 +78,7 @@ An open-source benefits screener that checks SNAP, Medicaid, CHIP, and WIC in on
 | | |
 |-|-|
 | <div align="center"><a href="https://github.com/UbiquitousKiwi/OpenBridge"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/OpenBridge/mainline/.github/assets/OpenBridge-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2F0F766E%2FFFFFF%2Fjpeg%3Ftext%3DOB" alt="OpenBridge" width="400" /></a><h3>OpenBridge</h3><p>One-pass eligibility screener for SNAP, Medicaid, CHIP, and WIC. Fully in-browser, transparent math, zero tracking.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/BOOKWRMS"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/BOOKWRMS/mainline/.github/assets/BOOKWRMS-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2FC2410C%2FFFFFF%2Fjpeg%3Ftext%3DBW" alt="BOOKWRMS" width="400" /></a><h3>BOOKWRMS</h3><p>Home library management with Flask and PostgreSQL. Deliberately simple — setup should take minutes, not evenings.</p></div> |
-| <div align="center"><a href="https://github.com/UbiquitousKiwi/SamuelSermonsExpress"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/SamuelSermonsExpress/mainline/.github/assets/SamuelSermonsExpress-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2FC2410C%2FFFFFF%2Fjpeg%3Ftext%3DSS" alt="Samuel Sermons" width="400" /></a><h3>Samuel Sermons</h3><p>An archive of my late grandfather's sermons from his decades as a Methodist minister, built with Express.js. Genealogy, shipped.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/CubHouse"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/CubHouse/main/.github/assets/personal-portfolio-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2F0F766E%2FFFFFF%2Fjpeg%3Ftext%3DPP" alt="CubHouse" width="400" /></a><h3>CubHouse</h3><p>Privacy first family photo sharing app. You complete control over your data</p></div> |
+| <div align="center"><a href="https://github.com/UbiquitousKiwi/SamuelSermonsExpress"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/SamuelSermonsExpress/mainline/.github/assets/SamuelSermonsExpress-thumbnail.jpg&default=https%3A%2F%2Fplacehold.co%2F400x200%2FC2410C%2FFFFFF%2Fjpeg%3Ftext%3DSS" alt="Samuel Sermons" width="400" /></a><h3>Samuel Sermons</h3><p>An archive of my late grandfather's sermons from his decades as a Methodist minister, built with Express.js. Genealogy, shipped.</p></div> | <div align="center"><a href="https://github.com/UbiquitousKiwi/CubHouse"><img src="https://wsrv.nl/?url=raw.githubusercontent.com/UbiquitousKiwi/CubHouse/main/docs/assets/social-preview.png&default=https%3A%2F%2Fplacehold.co%2F400x200%2F0F766E%2FFFFFF%2Fjpeg%3Ftext%3DCH" alt="CubHouse" width="400" /></a><h3>CubHouse</h3><p>Privacy-first family photo sharing you host yourself. Invite-only, encrypted storage, and you keep complete control of your data.</p></div> |
 
 ## THE TOOLBOX
 
